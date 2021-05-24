@@ -1,7 +1,7 @@
 from app import Even
 
 def Test():
-    assert Even(4) == True
+    assert Even(4) == False
     print("Test passed")
 
 if __name__ == "__main__":
